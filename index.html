@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="css/style.css".css">
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    #parent {
+        display: flex;
+        background-color: rgba(125, 43, 232, 0.357);
+        justify-content: space-between;
+
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        list-style: none;
+        margin-left: 20px;
+        margin: 15px 30px;
+        align-items: center;
+        color: rgb(21, 26, 26);
+    }
+
+    #bnr-part { 
+        background-image: url(/images/bnr-1.png), linear-gradient(rgb(153, 153, 25),rgb(28, 220, 28), rgb(233, 22, 22));
+        background-blend-mode: overlay;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        
+    }
+    .btn-primary{
+        color: white;
+        background-color: rgb(241, 70, 8);
+        border: none;
+        border-radius: 10px;
+    }
+    .bnr-title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        font-weight: 300;
+        margin-top: 25px 50px;
+        color: rgb(4, 3, 97);
+    }
+    .bnr-description{
+        font-family: cursive;
+        font-weight: 300;
+        font-style: italic;
+        margin: 20px 40px;
+        color: rgb(24, 22, 23);
+    }
+</style>
+
+<body>
+    <header>
+        <div id="parent">
+            <div id="img">
+                <img src="/images/logo.png" alt="" srcset="">
+            </div>
+            <div>
+                <nav>
+                    <ul class="item">
+                        <li class="items">Home</li>
+                        <li class="items">About</li>
+                        <li class="items">Contact</li>
+                        <li class="items"><button class="btn-primary" style="width: 85px; height: 35px;"  type="submit">Hire me</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="bnr-part">
+                <h1 class="bnr-title">This is the parallex heading</h1>
+                <p class="bnr-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sint tempora veritatis? Blanditiis
+                    nulla tempora reprehenderit recusandae earum expedita harum eveniet, molestiae, mollitia quisquam
+                    autem illo animi, unde dolores voluptates iure odio placeat adipisci quos consequatur quo assumenda
+                    esse velit ea! Obcaecati nam fugiat assumenda, dolor voluptas suscipit debitis eveniet accusamus
+                    voluptatum. </p>
+                <button class="btn-primary" style="width: 85px; height: 38px;" type="submit">Contact us</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+ 
+    </footer>
+</body>
+
+</html>
